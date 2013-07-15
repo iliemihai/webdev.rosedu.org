@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="fullheight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>WebDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fontface.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+</head>
+<body class="fullheight">
+<div class="flexboxlayout fullheight">
+  <div class="wrapper">
+    <div class="row-fluid">
+      <div class="span3" id="menu_wrapper">
+        <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="images/transparent.png" below -->
+        <h2 id="menu_header" class="logotoppadding"><img id="webdev_logo" src="images/transparent.png" style="max-width: 100%;"></h2>
+        <div id="menu">
+          <ul style="font-family: 'OpenSansRegular';">
+            <li class="webdevmenuitem" data-id="#acasa">        <a href="#acasa">Acasă</a>             </li>
+            <li class="webdevmenuitem" data-id="#frontend">     <a href="#frontend">Frontend Track</a> </li>
+            <li class="webdevmenuitem" data-id="#backend">      <a href="#backend">Backend Track</a>   </li>
+            <li class="webdevmenuitem" data-id="#cursanti">     <a href="#cursanti">Cursanți</a>       </li>
+            <li class="webdevmenuitem" data-id="#meta">         <a href="#meta">Meta</a>               </li>
+            <li class="webdevmenuitem" data-id="#sponsori">     <a href="#sponsori">Sponsori</a>       </li>
+          </ul>
+        </div> <!-- id="menu" -->
+      </div> <!-- id="menu_wrapper" -->
+
+      <div class="main span8 offset1">
+        <span id="top_of_content"></span>
+        <div id="acasa_content" class="visualstate">
+          <h2 id="webdev_heading" style="margin-top: 12px; margin-bottom: 20px;">Curs de dezvoltare web ghidată de teste, cu o durată de 10 săptămâni, dedicat tuturor elevilor și studenților interesați de tehnologii libere, organizat de comunitatea ROSEdu și prietenii</h2>
+          <h3>Cursurile din ediția toamnă 2013 sunt organizate pe două track-uri:</h3>
+          <p>
+            <button class="btn greybutton webdevmenuitem" data-id="#frontend">
+              <strong>Frontend Track</strong>
+            </button>
+          </p>
+          <p>
+            <button class="btn greybutton webdevmenuitem" data-id="#backend">
+              <strong>Backend Track</strong>
+            </button>
+          </p>
+          <br>
+          <h3>Înscriere</h3>
+          <p>Cursurile WebDev sunt gratuite, însă numărul de locuri este limitat.</p>
+          <p>Pentru înscriere, completează, te rugăm, <a href="https://docs.google.com/forms/d/1354JkSd5RX7upx2cc5v5TAlHmkOd-4aj8CeVtCpR-3s/viewform" target="_blank">acest formular</a>.</p>
+        </div> <!-- id="acasa_content" -->
+
+        <div id="frontend_content" class="visualstate">
+          <h3>Frontend Track - Structură / Calendar</h3>
+          <br>
+          <table class="table table-striped">
+            <tr>
+              <td><strong>HTML / CSS</strong></td>
+              <td>12 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>Git / Selenium</strong></td>
+              <td>19 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>JavaScript #1</strong></td>
+              <td>26 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>JavaScript #2</strong></td>
+              <td>2 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>JavaScript #3</strong></td>
+              <td>9 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>User Experience Design</strong></td>
+              <td>16 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>Node.JS / Socket.IO</strong></td>
+              <td>23 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>HTML5 Canvas Game Development</strong></td>
+              <td>7 dec.</td>
+            </tr>
+            <tr>
+              <td><strong>Hackaton Final</strong></td>
+              <td>14-15 dec.</td>
+            </tr>
+          </table>
+        </div> <!-- id="frontend_content" -->
+
+        <div id="backend_content" class="visualstate">
+          <h3>Backend Track - Structură / Calendar</h3>
+          <br>
+          <table class="table table-striped">
+            <tr>
+              <td><strong>Ruby #1</strong></td>
+              <td>12 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>Ruby #2</strong></td>
+              <td>19 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>Git / Hackaton #1 Ruby, TDD</strong></td>
+              <td>26 oct.</td>
+            </tr>
+            <tr>
+              <td><strong>Hackaton #2 Ruby, TDD</strong></td>
+              <td>2 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>Ruby on Rails #1 (View / Controller)</strong></td>
+              <td>9 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>Ruby on Rails #2 (View / Controller)</strong></td>
+              <td>16 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>Ruby on Rails #3 (ActiveRecord)</strong></td>
+              <td>23 nov.</td>
+            </tr>
+            <tr>
+              <td><strong>Ruby on Rails #4 (ActiveRecord)</strong></td>
+              <td>7 dec.</td>
+            </tr>
+            <tr>
+              <td><strong>Hackaton Final</strong></td>
+              <td>14-15 dec.</td>
+            </tr>
+          </table>
+        </div> <!-- id="backend_content" -->
+
+        <div id="cursanti_content" class="visualstate">
+          <h3>Cursanți WebDev</h3>
+          <br>
+          <p>Cursanții pentru ediția 2013 vor fi anunțați aici cel târziu pe 11 oct. 2013 la ora 23:59. Vă așteptăm să vă înscrieți!</p>
+        </div> <!-- id="cursanti_content" -->
+
+        <div id="meta_content" class="visualstate">
+          <h3>Contact</h3>
+          <p>Ne găsiți pe canalul de IRC #rosedu pe Freenode sau ne puteți trimite un mail la <a href="mailto:contact@rosedu.org">contact@rosedu.org</a>.</p>
+          <h3>Organizatori și organizare</h3>
+          <p><strong>WebDev</strong> vă este adus de <a href="http://www.rosedu.org/" target="_blank">comunitatea ROSEdu</a>.</p>
+          <h3>Credits</h3>
+          <p>(în ordine alfabetică):
+          <br>
+          Andrei Bocan, Bogdan Breșug, Alexandru Burghelea, Ioan Deaconu, Andrei Maxim, Andrei Oprea, Silviu Postăvaru, Alexandra Săndulescu, Cezar Sîrbu, Ionuț G. Stan, Dan Șerban, Alexandru Tudorică, Marius Ursache, Gabriel Voicu și prietenii.</p>
+          <h3>Condiții și drepturi de folosire</h3>
+          <p>ROSEdu deține drepturile asupra întregului conținut al acestui site.</p>
+          <p>ROSEdu, în calitate de deținător al drepturilor de autor, eliberează conținutul acestui site sub licența <a href="http://www.gnu.org/licenses/fdl-1.2.html" target="_blank">GNU Free Documentation License v1.2</a>. În acest sens, accesul, distribuția și modificarea conținutului sunt libere, cu condiția păstrării autorilor inițiali. Se recomandă folosirea sintagmei "Documentație originală scrisă de membrii asociației studențești ROSEdu".</p>
+          <p>Pentru informații suplimentare, te așteptăm pe <a href="http://lists.rosedu.org/listinfo/rosedu-general" target="_blank">lista generală a ROSEdu</a> sau pe <a href="irc://irc.freenode.net">canalul IRC #rosedu</a>.</p>
+          <h3>Despre site</h3>
+          <p>Puteți găsi repository pentru acest site pe <a href="https://github.com/rosedu/webdev.rosedu.org" target="_blank">GitHub</a></p>
+        </div> <!-- id="meta_content" -->
+
+        <div id="sponsori_content" class="visualstate">
+          <h3>WebDev este sponsorizat de:</h3>
+          <br>
+          <h3>Eloquentix</h3>
+          <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="" below -->
+          <p><a href="http://www.eloquentix.com/" target="_blank"><img id="elo_logo" src=""></a></p>
+          <p>We are a team of passionate technologists that join nimble teams to build and grow successful products. We believe in enjoying what we do, in developing for pleasure. If we deliver simple, clean and working software we have done a good days work.</p>
+          <p>Our technological interests vary. Some are Erlang passionatos. Some love clean backbone code. Some are adamant about well tested code. Our goal is have projects and an environment where each of us can express their talents.</p>
+          <br>
+          <h3>Eau de Web</h3>
+          <!-- We use JavaScript to load images after all the text has been loaded/displayed, hence the use of src="" below -->
+          <p><a href="http://www.eaudeweb.ro/" target="_blank"><img id="eaudeweb_logo" src=""></a></p>
+          <p>Eau de Web is a Romanian software company specialised in Web development. Most of our work is open source and that’s the way we like it.</p>
+        </div> <!-- id="sponsori_content" -->
+
+        <h3>&nbsp;</h3>
+
+        <p class="extra_buttons" id="tap_target_acasa">
+          <button class="btn greybutton webdevmenuitem" data-id="#acasa">
+            <strong>Acasă</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#cursanti">
+            <strong>Cursanți</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#meta">
+            <strong>Meta</strong>
+          </button>
+        </p>
+        <p class="extra_buttons">
+          <button class="btn greybutton webdevmenuitem" data-id="#sponsori">
+            <strong>Sponsori</strong>
+          </button>
+        </p>
+      </div> <!-- class="main span8 offset1" -->
+    </div> <!-- class="row-fluid" -->
+  </div> <!-- class="wrapper" -->
+
+  <div class="footer-wrapper">
+    <div class="footer">&copy; 2013 ROSEdu</div>
+  </div>
+
+  <div style="display: none;">
+    <img id="arrow_hover" src="">
+    <img id="grey_gradient" src="">
+  </div>
+</div> <!-- class="flexboxlayout fullheight" -->
+</body>
+</html>
+<script src="js/zepto.min.js"></script>
+<script src="js/main.js"></script>
+
